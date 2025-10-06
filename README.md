@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS. Inspired by chanhdai.com design.
+A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS. 
 
 ## Features
 
