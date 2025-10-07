@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Prajjwal Singh - Software Engineer',
-  description: 'Prospective software engineer passionate about creating innovative solutions. Skilled in Kotlin, Java, Python, and cloud technologies.',
+  description: 'Software Engineer and B.Tech Computer Science student at Lovely Professional University. Skilled in Kotlin, Java, Python, and cloud technologies (AWS, Azure, Firebase).',
 }
 
 export default function RootLayout({
