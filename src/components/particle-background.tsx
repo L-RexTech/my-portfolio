@@ -14,7 +14,7 @@ export function ParticleBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const mouseRef = useRef({ x: 0, y: 0 })
   const particlesRef = useRef<Particle[]>([])
-  const animationFrameRef = useRef<number | undefined>()
+  const animationFrameRef = useRef<number>(0)
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -123,7 +123,7 @@ export function ParticleBackground() {
     return () => {
       window.removeEventListener('resize', resizeCanvas)
       window.removeEventListener('mousemove', handleMouseMove)
-      if (animationFrameRef.current) {
+      if (animationFrameRef.current !== 0) {
         cancelAnimationFrame(animationFrameRef.current)
       }
     }
